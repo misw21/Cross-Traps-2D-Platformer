@@ -63,7 +63,7 @@ mMainMenu\), interactive buttons, and real-time HUD |
 <div align="center">
 
 ### Main Menu Interface
-![Main Menu](assets/screenshots/main_menu.png)
+![Main Menu](assets/screenshots/v2/main_menu.png)
 *Title screen with Start Game and navigation controls.*
 
 </div>
