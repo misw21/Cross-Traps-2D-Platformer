@@ -32,7 +32,8 @@ This project exemplifies the complete **Game Development Life Cycle (GDLC)**—f
 | **Respawn Logic** | Full room restart on death | Dynamic start-point checkpoint respawning (\oStartPoint\) |
 | **Damage System** | Instant death / multiple life loss | 60-frame invincibility cooldown (\hitDelay\) + score penalty |
 | **Audio & SFX** | Basic audio | Integrated atmospheric background tracks & sound effects |
-| **User Interface** | Plain text display | Styled Main Menu (\mMainMenu\), interactive buttons, and real-time HUD |
+| **User Interface** | Plain text display | Styled Main Menu (\
+mMainMenu\), interactive buttons, and real-time HUD |
 | **Game Architecture** | Basic event triggers | Decoupled object-oriented GML scripts with state controllers |
 
 ---
@@ -69,17 +70,17 @@ This project exemplifies the complete **Game Development Life Cycle (GDLC)**—f
 
 | Room 1: The Introductory Ascent | Room 2: First Milestone Checkpoint |
 | :---: | :---: |
-| ![Room 1](assets/screenshots/room1.png) | ![Room 2](assets/screenshots/room2.png) |
+| ![Room 1](assets/screenshots/v2/room1.png) | ![Room 2](assets/screenshots/v2/room2.png) |
 | *Learning jump arcs and coin collection* | *Precision jumps over ground spike hazards* |
 
 | Room 3: Tight Hazard Navigation | Room 4: Speedrun Challenge |
 | :---: | :---: |
-| ![Room 3](assets/screenshots/room3.png) | ![Room 4](assets/screenshots/room4.png) |
+| ![Room 3](assets/screenshots/v2/room3.png) | ![Room 4](assets/screenshots/v2/room4.png) |
 | *Multi-tier spike avoidance with restricted timers* | *Fast vertical leaps under tight 20-second countdown* |
 
 | Room 5: Platform Precision | Room 7: Final Gauntlet & Victory Flag |
 | :---: | :---: |
-| ![Room 5](assets/screenshots/room5.png) | ![Room 7](assets/screenshots/room7.png) |
+| ![Room 5](assets/screenshots/v2/room5.png) | ![Room 7](assets/screenshots/v2/room7.png) |
 | *Advanced obstacle layout requiring frame-perfect timing* | *The ultimate test leading to game completion* |
 
 ---
@@ -97,7 +98,7 @@ This project exemplifies the complete **Game Development Life Cycle (GDLC)**—f
 
 ## 📂 Project Structure
 
-`	ext
+```	
 cross-traps-2d-platformer/
 ├── assets/
 │   └── screenshots/                # Gameplay and room screenshots
@@ -123,7 +124,7 @@ cross-traps-2d-platformer/
 ├── .gitignore                      # GameMaker temporary file exclusions
 ├── LICENSE                         # MIT License
 └── README.md                       # Project documentation
-`
+```
 
 ---
 
